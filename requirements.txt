@@ -1,0 +1,13 @@
+langchain
+python-dotenv
+streamlit
+unstructured
+tiktoken
+faiss-cpu
+# libmagic
+# python-magic
+# python-magic-bin  these are wwindows package only 
+# use brew install libmagic ,pip install python-magic
+langchain[groq]
+langchain_huggingface
+langchain_community

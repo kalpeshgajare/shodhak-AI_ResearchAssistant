@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+
+# Chroma vector store
+chroma_store/
+
+# Pickle files (if any used)
+*.pkl
+
+# Streamlit cache and logs
+.streamlit/
+logs/
+*.log
+
+# Python egg metadata and distribution files
+*.egg-info/
+dist/
+build/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IPython
+.ipynb_checkpoints/
+
+# Jupyter runtime
+~$*
