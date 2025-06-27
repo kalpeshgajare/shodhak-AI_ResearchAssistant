@@ -66,7 +66,7 @@ def load_and_embed_articles(url_list):
                 import shutil
                 shutil.rmtree(CHROMA_DIR)  # clear existing
 
-            vectorstore = Chroma.from_documents(docs, embeddings, persist_directory=CHROMA_DIR)
+            vectorstore = Chroma.from_documents(docs, embeddings)
             vectorstore.persist()
 
         st.success("✅ Chroma Vector Store Saved Successfully.")
