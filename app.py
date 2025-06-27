@@ -10,7 +10,7 @@ from langchain.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()    if using locally
 
 # Constants
 CHROMA_DIR = "./chroma_store"
@@ -40,7 +40,7 @@ llm = ChatOpenAI(
     base_url="https://api.groq.com/openai/v1",
     temperature=0.6,
     max_tokens=500,
-    openai_api_key=os.getenv("GROQ_API_KEY")
+    openai_api_key=st.secrets["GROQ_API_KEY"]
 )
 
 # Function to load and embed articles into Chroma
