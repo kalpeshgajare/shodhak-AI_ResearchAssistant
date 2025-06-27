@@ -18,6 +18,10 @@ ENV/
 # Chroma vector store
 chroma_store/
 
+*.egg-info/
+dist/
+build/
+
 # Pickle files (if any used)
 *.pkl
 
