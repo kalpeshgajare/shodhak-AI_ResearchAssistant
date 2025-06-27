@@ -1,5 +1,5 @@
 langchain
-python-dotenv
+#python-dotenv
 streamlit
 unstructured
 tiktoken
